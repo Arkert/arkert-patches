@@ -1,14 +1,13 @@
-group = "app.template"
+group = "io.github.arkert.patches"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Arkert Patches"
+        description = "Personal Android patches."
+        source = "https://github.com/Arkert/arkert-patches"
+        author = "Arkert"
+        contact = "https://github.com/Arkert/arkert-patches/issues"
+        website = "https://github.com/Arkert/arkert-patches"
         license = "GPLv3"
     }
 }
