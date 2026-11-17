@@ -1,10 +1,11 @@
-package app.template.patches.example
+package io.github.arkert.patches.example
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.patch
-import app.template.patches.shared.Constants.COMPATIBILITY_EXAMPLE
+import io.github.arkert.patches.shared.Constants.COMPATIBILITY_EXAMPLE
 
-private const val EXTENSION_CLASS = "Lapp/template/extension/ExamplePatch;"
+private const val EXTENSION_CLASS =
+    "Lio/github/arkert/extension/ExamplePatch;"
 
 @Suppress("unused")
 val examplePatch = patch(

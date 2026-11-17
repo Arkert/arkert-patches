@@ -1,18 +1,24 @@
-# 👋🧩 Morphe Patches template
+# Arkert Patches
 
-Template repository for Morphe Patches.
+Personal Android patches compatible with Morphe.
 
-## ❓ About
 
-Patches for apps I like.
+## About
 
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+Arkert Patches is an independent collection of Android
+application patches built using the Morphe framework.
+
+The project starts with Comunio and may expand to
+other Android applications in the future.
+
+This project is not affiliated with or endorsed by
+the Morphe project or the developers of the patched apps.
 
 ### How to use these patches
 
-Click the button below, or manually add this repo url to Morphe Manager: https://github.com/xyz-user/xyz-patches
+Click the button below, or manually add this repo url to Morphe Manager: https://github.com/Arkert/arkert-patches
 
-<a href="https://morphe.software/add-source?github=xyz-user/xyz-patches">
+<a href="https://morphe.software/add-source?github=Arkert/arkert-patches">
   <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
 </a>
 
@@ -89,15 +95,6 @@ To develop and release your Patches using this template:
      this readme of all developer instructions above. -->
 <!-- PATCHES_END -->
 
-### 🛠️ Building locally
-
-- Run `./gradlew buildAndroid`
-- The built patches .mpp file is found in `patches/build/libs/patches-*.mpp`
-- Patch the mpp file using [Morphe-Desktop](https://github.com/MorpheApp/morphe-desktop)
-  like any other patch bundle.
-
-See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation) for more information.
-
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Arkert Patches is licensed under the [GNU General Public License v3.0](LICENSE).

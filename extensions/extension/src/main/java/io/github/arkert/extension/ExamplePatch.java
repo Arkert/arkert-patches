@@ -1,4 +1,4 @@
-package app.template.extension.extension;
+package io.github.arkert.extension;
 
 @SuppressWarnings("unused")
 public class ExamplePatch {
